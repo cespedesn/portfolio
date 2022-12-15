@@ -11,7 +11,7 @@ body {
 }
 
 nav {
-    background: blue;
+    background: rgb(52, 101, 236);
     height: 80px;
     width: 100%;
 }
@@ -33,5 +33,77 @@ nav ul li {
 nav ul {
     float: right;
     margin-right: 20px;
+}
+
+nav ul li a {
+    font-size: 20px;
+    text-transform: uppercase;
     color: white;
+    border-radius: 3px;
+    padding: 7px 13px;
+}
+
+a.home, a:hover {
+    background: rgb(146, 196, 247);
+    transition: .3s;
+}
+
+#check {
+    display: none;
+}
+
+.check-btn {
+    color: white;
+    font-size: 30px;
+    margin-right: 40px;
+    line-height: 80px;
+    float: right;
+    cursor: pointer;
+    display: none;
+}
+
+
+/*adding so that navbar adjust on screen size*/
+@media (max-width: 1300px) {
+    label.nav-logo {
+        padding-left: 50px;
+        font-size: 30px;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .check-btn {
+        display: block;
+    }
+    ul {
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        /*navbar slides from left when clicked*/
+        left: -100%;
+        top: 70px;
+        text-align: center;
+        background-color: rgb(153, 162, 235);
+        transition: all .6s;
+    }
+    nav ul li {
+        display: block;
+        line-height: 30px;
+        margin: 50px 0;
+    }
+    nav ul li a {
+        font-size: 20px;
+    }
+    a:hover, a.home {
+        background: none;
+        color: rgb(146, 196, 247);;
+    }
+    /*ability to toggle menu bars*/
+    #check:checked ~ ul {
+        left: 0;
+    }
 }
