@@ -9,6 +9,7 @@
 body {
     font-family: montserrat;
     background-image: radial-gradient(circle farthest-side, #424c70, #000000);
+    
 }
 
 /*Top Container*/
@@ -25,7 +26,7 @@ body {
 
 .header-div {
    display:inline-block;
-   transform: translateY(100%);
+   margin-top: 400px;
    margin-left: 1000px;
    
 }
@@ -162,6 +163,7 @@ a.home, a:hover {
 .about-text {
     width: 600px;
     color: white;
+    text-align: center;
 }
 
 .about-text h2 {
@@ -194,6 +196,50 @@ a.home, a:hover {
     color: rgb(146, 196, 247);
 }
 
+
+/*Skills*/
+.skills-img {
+    height: 50%;
+    width: 50%;
+}
+
+.skills {
+    padding: 100px 0px;
+    width: 100%;
+}
+
+.skills-title {
+    color: white;
+    font-size: 65px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%; 
+    grid-template-rows: auto;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+}
+
+.skills-tile {
+    position: relative;
+    padding: 10px 5px;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    justify-content: center;
+}
+
+.skills-tile h5 {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+
 /*Projects*/
 .projects {
     padding: 100px 0px;
@@ -208,7 +254,7 @@ a.home, a:hover {
     text-align: center;
 }
 
-.container {
+.project-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -218,17 +264,20 @@ a.home, a:hover {
 .tile {
     position: relative;
     padding: 20px 35px;
-    height: 365px;
+    height: 500px;
     width: 335px;
     background: rgb(146, 196, 247);
     border-radius: 20px;
     margin: 15px;
     text-align: center;
+    overflow: hidden;
 }
+
 
 .thumbnail {
     width: 100%;
     height: 100%;
+    border-radius: 20px;
 }
 
 .tile h5 {
@@ -241,6 +290,7 @@ a.home, a:hover {
     font-size: 16px;
     line-height: 30px;
     margin-bottom: 25px;
+    font-weight: bold;
 }
 
 .tile .button {
