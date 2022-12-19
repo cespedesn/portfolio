@@ -13,13 +13,14 @@ body {
 
 /*Top Container*/
 .top-container {
-    height: 100vh;
+    margin-top: 40px;
+    height: 80vh;
     width: 100%;
-    background-image: url(./Subject5.png);
+    background-image: url(./images/Subject5.png);
     background-repeat: no-repeat;
     background-size: contain;
     opacity: .8;
-    border-radius: 300px;
+    border-radius: 250px;
 }
 
 .header-div {
@@ -107,7 +108,7 @@ a.home, a:hover {
 
 
 /*adding so that navbar adjust on screen size*/
-@media (max-width: 1300px) {
+@media (max-width: 1700px) {
     label.nav-logo {
         padding-left: 50px;
         font-size: 30px;
@@ -118,7 +119,7 @@ a.home, a:hover {
     }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1500px) {
     .check-btn {
         display: block;
     }
@@ -191,4 +192,69 @@ a.home, a:hover {
     line-height: 25px;
     margin-bottom: 40px;
     color: rgb(146, 196, 247);
+}
+
+/*Projects*/
+.projects {
+    padding: 100px 0px;
+    width: 100%; 
+}
+
+.title h2 {
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.tile {
+    position: relative;
+    padding: 20px 35px;
+    height: 365px;
+    width: 335px;
+    background: rgb(146, 196, 247);
+    border-radius: 20px;
+    margin: 15px;
+    text-align: center;
+}
+
+.thumbnail {
+    width: 100%;
+    height: 100%;
+}
+
+.tile h5 {
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.tile-content {
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+
+.tile .button {
+    background-color: rgb(52, 101, 236);
+    color: white;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 15px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+.tile .button:hover {
+    background-color: transparent;
+    border: 2px solid;
+    cursor: pointer;
 }
