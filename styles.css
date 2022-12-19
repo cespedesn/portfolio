@@ -223,21 +223,35 @@ a.home, a:hover {
     justify-content: center;
     align-items: center;
     min-height: 100px;
+    
 }
 
 .skills-tile {
     position: relative;
-    padding: 10px 5px;
     height: 200px;
     width: 200px;
     text-align: center;
     justify-content: center;
+    margin: auto;
 }
 
 .skills-tile h5 {
     color: white;
     font-size: 15px;
     text-align: center;
+}
+
+.skills-tile h5:hover {
+    color: #424c70;
+}
+
+.skills-tile:hover {
+    cursor: pointer; 
+    transform: rotate(360deg);
+    transition: all 0.5s ease-in-out 0s;
+    background: rgb(190, 222, 252);
+    opacity: .6;
+    border-radius: 40%;
 }
 
 /*Projects*/
