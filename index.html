@@ -5,10 +5,16 @@
     <title>Portfolio</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CSS-->
     <link rel="stylesheet" href="./styles.css" > 
+    <!--Bars-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Programming Languages Icons-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <!--Postman Icon-->
     <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+    <!--Paralax Scroll-->
+    <script src="https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js"></script>
     <script defer src="./script.js"></script>
 </head>
 <body>
@@ -42,7 +48,7 @@
    
     <div class="top-container">
         
-        <div class="header-div">
+        <div class="header-div rellax" data-rellax-speed="-3">
             <h4> Hello, my name is</h4>
             <h1 class="header">Neftali <span>Cespedes</span></h1>
             <h3>I'm a Web Developer</h3>
@@ -50,8 +56,8 @@
     </div>
 
     <!--About Me-->
-    <div class="about-container">
-        <div class="about-section">
+    <div class="about-container rellax" data-rellax-speed="-.09">
+        <div class="about-section rellax" >
             <div class="about-text">
                 <h2>About Me</h2>
                 <h5>Developer & <span>Sales Professional</span></h5>
@@ -141,7 +147,7 @@
     </div>
 
     <!--Projects-->
-    <div class="projects">
+    <div class="projects rellax" data-rellax-speed="2.5">
         <div class="title">
             <h2>Projects</h2>
         </div>
@@ -201,6 +207,19 @@
         </div>
     </div>
 
-      
+    <div>
+        <div class="custom-shape-divider-bottom-1671504450">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+            </svg>
+        </div>
+        <footer>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js"></script>
+    <script>
+        const rellax = new Rellax('.rellax');
+    </script>
 </body>
 </html>
