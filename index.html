@@ -5,6 +5,7 @@
     <title>Portfolio</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico"/>
     <!--CSS-->
     <link rel="stylesheet" href="./styles.css" > 
     <!--Bars-->
@@ -17,230 +18,231 @@
     <script src="https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js"></script>
     <script defer src="./script.js"></script>
 </head>
-<body>
+    <body>
 
-    <!--Intro-->
-    <nav>
-        <input type="checkbox" id="check">
-        <label for="check" class="check-btn">
-            <!-- For nav icon -->
-            <i class="fa fa-bars"></i>
-        </label>
-        <label class="nav-logo"> NefCes</label>
-        <ul>
-            <li>
-                <a class="home" href="#">Home</a>
-            </li>
-            <li>
-                <a class="about" href="#">About</a>
-            </li>
-            <li>
-                <a class="skills" href="#">Skills</a>
-            </li>
-            <li>
-                <a class="projects" href="#">Projects</a>
-            </li>
-            <li>
-                <a class="contact" href="#">Contact</a>
-            </li>
-        </ul>
-    </nav>
-   
-    <div class="top-container">
-        
-        <div class="header-div rellax" data-rellax-speed="-3">
-            <h4> Hello, my name is</h4>
-            <h1 class="header">Neftali <span>Cespedes</span></h1>
-            <h3>I'm a Web Developer</h3>
-        </div>
-    </div>
-
-    <!--About Me-->
-    <div class="about-container rellax" data-rellax-speed="-.09">
-        <div class="about-section rellax" >
-            <div class="about-text">
-                <h2>About Me</h2>
-                <h5>Developer & <span>Sales Professional</span></h5>
-                <br/>
-                <p>
-                    Hi there! My name is Neftali Cespedes and I am a Software Developer with a background in sales. I am Flatiron School graduate and am proficient in a variety of skills including React.js, JavaScript, Ruby on Rails, HTML, CSS, GitHub, and Bootstrap.
-                </p>
-                <br/>    
-                <p>
-                    In my previous career as a sales professional, I honed my skills in communication and problem-solving, which have been invaluable in my transition into the tech industry. I am a detail-oriented and hardworking individual, and I am always looking for ways to improve and learn new things.
+        <!--Intro-->
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="check-btn">
+                <!-- For nav icon -->
+                <i class="fa fa-bars"></i>
+            </label>
+            <label class="nav-logo"><img class="nefceslogo" src="./images/nefceslogo.png" alt="NefCes"></label>
+            <ul>
+                <li>
+                    <a class="active" href="#" >Home</a>
+                </li>
+                <li>
+                    <a class="about" href="#about">About</a>
+                </li>
+                <li>
+                    <a class="skills" href="#skills">Skills</a>
+                </li>
+                <li>
+                    <a class="projects" href="#projects">Projects</a>
+                </li>
+                <li>
+                    <a class="contact" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
     
-                    I am excited to bring my diverse skill set and passion for technology to new challenges and opportunities!
-                </p>
-            </div>
-        </div>
-    </div>
-
-    <!--Skills-->
-    <div class="skills">
-        <div class="skills-title">
-            <h2>Skills</h2>
-        </div>
-        <div class="skills-container">
-            <div class="skills-tile">
-                <img class="skills-img"src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
-                <h5>HTML</h5>
-            </div>
-            <div class="skills-tile">
-                <img class="skills-img"src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
-                <h5>CSS</h5>
-            </div>
-            <div class="skills-tile">
-                <img class="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" />
-                <h5>Bootstrap</h5>
-            </div>
-            <div class="skills-tile">
-                <img class="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg"  />
-                <h5>Material UI</h5>
-            </div>
-            <div class="skills-tile">
-                <img class="skills-img"src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-                <h5>JavaScript</h5>
-            </div>
-
-            <div class="skills-tile">
-                <img class="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
-                <h5>React.js</h5>
-            </div>
-            <div class="skills-tile">
-                <img class="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" />
-                <h5>NPM</h5>
-            </div>
-            <div class="skills-tile">
-                <img class="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
-                <h5>Ruby</h5>
-            </div>
-            <div class="skills-tile">
-                <img class="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg" />
-                <h5>Ruby on Rails</h5>
-            </div>
-            <div class="skills-tile">
-                <img class="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" />
-                <h5>Postgres</h5>
-            </div>
-            <div class="skills-tile">
-                <img class="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                <h5>GitHub</h5>
-            </div>
-            <div class="skills-tile">
-                <img class="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" />
-                <h5>VSCode</h5>
-            </div>
-            <div class="skills-tile">
-                <img class="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ubuntu/ubuntu-plain.svg" />
-                <h5>Ubuntu</h5>
-            </div>
-            <div class="skills-tile">
-                <iconify-icon icon="logos:postman" width="180" height="90"></iconify-icon>
-                <h5>Postman</h5>
-            </div>
-            <div class="skills-tile">
-                <img class="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chrome/chrome-original.svg" />
-                <h5>Chrome DevTools</h5>
-            </div>
+        <div class="top-container">
             
-        </div>
-    </div>
-
-    <!--Projects-->
-    <div class="projects rellax" data-rellax-speed="2.5">
-        <div class="title">
-            <h2>Projects</h2>
+            <div class="header-div rellax" data-rellax-speed="-3">
+                <h4> Hello, my name is</h4>
+                <h1 class="header">Neftali <span>Cespedes</span></h1>
+                <h3>I'm a Software Engineer</h3>
+            </div>
         </div>
 
-        <div class="project-container">
-            <div class="tile">
-                <h5>[not so] FUNgible</h5>
-                <div class="tile-content">
-                    <img class="thumbnail" src="./gifs/p5ssgif.gif" alt="[not so] FUNgible"/>
+        <!--About Me-->
+        <div class="about-container rellax" data-rellax-speed="-.09" id="about">
+            <div class="about-section rellax" >
+                <div class="about-text">
+                    <h2>About Me</h2>
+                    <h5>Developer & <span>Sales Professional</span></h5>
+                    <br/>
                     <p>
-                        [not so] FUNgible is a Mock NFT marketplace where users can engage with the content. With 15 collections, this marketplace houses exclusive one-of-one NFTs and rewards holders with future perks. Join the community today!
+                        Hi there! My name is Neftali Cespedes and I am a Software Developer with a background in sales. I am Flatiron School graduate and am proficient in a variety of skills including React.js, JavaScript, Ruby on Rails, HTML, CSS, GitHub, and Bootstrap.
                     </p>
-                    <p style="text-align: center;">
-                        <a href="https://youtu.be/TgCsS8u6mjs"><button class="button">Watch Here</button></a>
-                    </p>
-                </div>
-            </div>
-
-            <div class="tile">
-                <h5>Motive-8</h5>
-                <div class="tile-content">
-                    <img class="thumbnail" src="./gifs/p3ssgif.gif" alt="Motive-8"/>
+                    <br/>    
                     <p>
-                        We could all use a little push here and there. Here is a motivational quote generator where you can generate a random quote and even create your own! 
-                    </p>
-                    <p style="text-align: center;">
-                        <a href="https://youtu.be/UA1aA1O9KgA"><button class="button">Watch Here</button></a>
-                    </p>
-                </div>
-            </div>
-
-            <div class="tile">
-                <h5>Weeabuu Bookmarker</h5>
-                <div class="tile-content">
-                    <img class="thumbnail" src="./gifs/p2ssgif.gif" alt="Weeabuu Bookmarker"/>
-                    <p>
-                        All things Anime and Manga! Check out how you can keep track of your favorite mangas and even get some reccomendations. 
-                    </p>
-                    <p style="text-align: center;">
-                        <a href="https://youtu.be/m3VWJdarkb4"><button class="button">Watch Here</button></a>
-                    </p>
-                </div>
-            </div>
-
-            <div class="tile">
-                <h5>Random Album Generator</h5>
-                <div class="tile-content">
-                    <img class="thumbnail" src="./gifs/p1ssgif.gif" alt="Weeabuu Bookmarker"/>
-                    <p>
-                        If you are in need of finding some new music, here is a random album generator! Millions of albums fetched and iterated through to bring you some variety. 
-                    </p>
-                    <p style="text-align: center;">
-                        <a href="https://youtu.be/MHjDaozhUt0"><button class="button">Watch Here</button></a>
+                        In my previous career as a sales professional, I honed my skills in communication and problem-solving, which have been invaluable in my transition into the tech industry. I am a detail-oriented and hardworking individual, and I am always looking for ways to improve and learn new things.
+        
+                        I am excited to bring my diverse skill set and passion for technology to new challenges and opportunities!
                     </p>
                 </div>
             </div>
         </div>
-    </div>
 
-    <div class="bottom-container">
-        <div class="custom-shape-divider-bottom-1671504450">
-            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
-            </svg>
+        <!--Skills-->
+        <div class="skills" id="skills">
+            <div class="skills-title">
+                <h2>Skills</h2>
+            </div>
+            <div class="skills-container">
+                <div class="skills-tile">
+                    <img class="skills-img"src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+                    <h5>HTML</h5>
+                </div>
+                <div class="skills-tile">
+                    <img class="skills-img"src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+                    <h5>CSS</h5>
+                </div>
+                <div class="skills-tile">
+                    <img class="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" />
+                    <h5>Bootstrap</h5>
+                </div>
+                <div class="skills-tile">
+                    <img class="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg"  />
+                    <h5>Material UI</h5>
+                </div>
+                <div class="skills-tile">
+                    <img class="skills-img"src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                    <h5>JavaScript</h5>
+                </div>
+
+                <div class="skills-tile">
+                    <img class="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+                    <h5>React.js</h5>
+                </div>
+                <div class="skills-tile">
+                    <img class="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" />
+                    <h5>NPM</h5>
+                </div>
+                <div class="skills-tile">
+                    <img class="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
+                    <h5>Ruby</h5>
+                </div>
+                <div class="skills-tile">
+                    <img class="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg" />
+                    <h5>Ruby on Rails</h5>
+                </div>
+                <div class="skills-tile">
+                    <img class="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" />
+                    <h5>Postgres</h5>
+                </div>
+                <div class="skills-tile">
+                    <img class="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <h5>GitHub</h5>
+                </div>
+                <div class="skills-tile">
+                    <img class="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" />
+                    <h5>VSCode</h5>
+                </div>
+                <div class="skills-tile">
+                    <img class="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ubuntu/ubuntu-plain.svg" />
+                    <h5>Ubuntu</h5>
+                </div>
+                <div class="skills-tile">
+                    <iconify-icon icon="logos:postman" width="180" height="90"></iconify-icon>
+                    <h5>Postman</h5>
+                </div>
+                <div class="skills-tile">
+                    <img class="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chrome/chrome-original.svg" />
+                    <h5>Chrome DevTools</h5>
+                </div>
+                
+            </div>
         </div>
-        <footer>
-            <div class="github-div" >
-                <a class="github-link" href="https://github.com/cespedesn">
-                    <img class="github-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"/></a>
+
+        <!--Projects-->
+        <div class="projects" id="projects">
+            <div class="title">
+                <h2>Projects</h2>
             </div>
 
-            <div class="resume-div" >
-                <a href="file:///C:/Users/nefta/OneDrive/Desktop/NefCesTechRes2022.pdf" download>
-                    <button class="resume-btn">
-                        Download Resume
-                    </button>
-                </a>
+            <div class="project-container rellax" data-rellax-speed="2.5">
+                <div class="tile">
+                    <h5>[not so] FUNgible</h5>
+                    <div class="tile-content">
+                        <img class="thumbnail" src="./gifs/p5ssgif.gif" alt="[not so] FUNgible"/>
+                        <p>
+                            [not so] FUNgible is a Mock NFT marketplace where users can engage with the content. With 15 collections, this marketplace houses exclusive one-of-one NFTs and rewards holders with future perks. Join the community today!
+                        </p>
+                        <p style="text-align: center;">
+                            <a href="https://youtu.be/TgCsS8u6mjs"><button class="button">Watch Here</button></a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="tile">
+                    <h5>Motive-8</h5>
+                    <div class="tile-content">
+                        <img class="thumbnail" src="./gifs/p3ssgif.gif" alt="Motive-8"/>
+                        <p>
+                            We could all use a little push here and there. Here is a motivational quote generator where you can generate a random quote and even create your own! 
+                        </p>
+                        <p style="text-align: center;">
+                            <a href="https://youtu.be/UA1aA1O9KgA"><button class="button">Watch Here</button></a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="tile">
+                    <h5>Weeabuu Bookmarker</h5>
+                    <div class="tile-content">
+                        <img class="thumbnail" src="./gifs/p2ssgif.gif" alt="Weeabuu Bookmarker"/>
+                        <p>
+                            All things Anime and Manga! Check out how you can keep track of your favorite mangas and even get some reccomendations. 
+                        </p>
+                        <p style="text-align: center;">
+                            <a href="https://youtu.be/m3VWJdarkb4"><button class="button">Watch Here</button></a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="tile">
+                    <h5>Random Album Generator</h5>
+                    <div class="tile-content">
+                        <img class="thumbnail" src="./gifs/p1ssgif.gif" alt="Weeabuu Bookmarker"/>
+                        <p>
+                            If you are in need of finding some new music, here is a random album generator! Millions of albums fetched and iterated through to bring you some variety. 
+                        </p>
+                        <p style="text-align: center;">
+                            <a href="https://youtu.be/MHjDaozhUt0"><button class="button">Watch Here</button></a>
+                        </p>
+                    </div>
+                </div>
             </div>
-
-            <div class="linkedin-div" >
-                <a class="linkedin-link" href="https://www.linkedin.com/in/neftali-cespedes/">
-                    <img class="linkedin-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg" />
-                </a>
-            </div>            
-        </footer>
-        <div class="copyright-div">
-            <p class="copyright">CopyRight By Neftali Cespedes</p>
         </div>
-    </div>
 
-    <script src="https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js"></script>
-    <script>
-        const rellax = new Rellax('.rellax');
-    </script>
-</body>
+        <!--Footer-->
+        <div class="bottom-container" id="contact">
+            <div class="custom-shape-divider-bottom-1671504450">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+                </svg>
+            </div>
+            <footer>
+                <div class="github-div" >
+                    <a class="github-link" target="_blank" href="https://github.com/cespedesn">
+                        <img class="github-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"/></a>
+                </div>
+
+                <div class="resume-div" >
+                    <a target="_blank" href="file:///C:/Users/nefta/OneDrive/Desktop/NefCesTechRes2022.pdf" download>
+                        <button class="resume-btn">
+                            Download Resume
+                        </button>
+                    </a>
+                </div>
+
+                <div class="linkedin-div" >
+                    <a class="linkedin-link" target="_blank" href="https://www.linkedin.com/in/neftali-cespedes/">
+                        <img class="linkedin-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg" />
+                    </a>
+                </div>            
+            </footer>
+            <div class="copyright-div">
+                <p class="copyright">CopyRight By Neftali Cespedes</p>
+            </div>
+        </div>
+        <!--Pralax Scrolling Script-->
+        <script src="https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js"></script>
+        <script>
+            const rellax = new Rellax('.rellax');
+        </script>
+    </body>
 </html>
