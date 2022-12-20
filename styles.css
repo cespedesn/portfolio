@@ -27,7 +27,7 @@ body {
 
 .header-div {
    display:inline-block;
-   margin-top: 400px;
+   margin-top: 285px;
    margin-left: 1000px;
    
 }
@@ -39,16 +39,30 @@ body {
     font-size: 75px;
 }
 
+h1 {
+    font-family: 'Merriweather', serif;
+}
+
+h2 {
+    font-family: 'Merriweather', serif;
+}
+
 h3 {
     color: white;
     font-size: 25px;
     margin-bottom: 50px;
+    font-family: 'Merriweather', serif;
 }
 
 h4 {
     font-size: 20px;
     color: rgb(146, 196, 247);
     letter-spacing: 2px;
+    font-family: 'Merriweather', serif;
+}
+
+h5 {
+    font-family: 'Merriweather', serif;
 }
 
 span {
@@ -81,6 +95,7 @@ nav ul li {
     display: inline-block;
     line-height: 80px;
     margin: 0 5px;
+    font-family: 'Merriweather', serif;
 }
 
 nav ul {
@@ -180,6 +195,10 @@ a.active, a.about:hover, a.skills:hover, a.projects:hover, a.contact:hover {
     text-align: center;
 }
 
+.about-text p {
+    font-family: 'Rambla', sans-serif;
+}
+
 .about-text h2 {
     font-size: 75px;
     text-transform: capitalize;
@@ -194,8 +213,6 @@ a.active, a.about:hover, a.skills:hover, a.projects:hover, a.contact:hover {
 }
 
 .about-section {
-    /* width: 1130;
-    max-width: 95%; */
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -224,8 +241,8 @@ a.active, a.about:hover, a.skills:hover, a.projects:hover, a.contact:hover {
 
 .skills-title {
     color: white;
-    font-size: 65px;
-    width: 1130px;
+    font-size: 60px;
+    width: 1150px;
     margin: 30px auto;
     text-align: center;
 }
@@ -272,17 +289,18 @@ a.active, a.about:hover, a.skills:hover, a.projects:hover, a.contact:hover {
 
 /*Projects*/
 .projects {
-    margin-top: 50px;
+    margin-top: 5px;
     padding: 100px 0px;
     width: 100%; 
 }
 
 .title h2 {
     color: white;
-    font-size: 75px;
-    width: 1130px;
+    font-size: 80px;
+    width: 1150px;
     margin: 30px auto;
     text-align: center;
+    padding-bottom: 100px;
 }
 
 .project-container {
@@ -318,8 +336,9 @@ a.active, a.about:hover, a.skills:hover, a.projects:hover, a.contact:hover {
 
 .tile h5 {
     color: white;
-    font-size: 23px;
+    font-size: 20px;
     margin-bottom: 15px;
+    font-family: 'Merriweather', serif;
 }
 
 .tile-content {
@@ -327,10 +346,11 @@ a.active, a.about:hover, a.skills:hover, a.projects:hover, a.contact:hover {
     line-height: 30px;
     margin-bottom: 25px;
     font-weight: bold;
+    font-family: 'Rambla', sans-serif;
 }
 
 .tile .button {
-    
+    margin-top: 15px;
     background-color: #424c70;
     color: white;
     border: 2px solid transparent;
@@ -362,7 +382,7 @@ a.active, a.about:hover, a.skills:hover, a.projects:hover, a.contact:hover {
     width: calc(100% + 1.3px);
     height: 184px;
     transform: rotateY(180deg);
-    border-bottom: solid 2px #3465EC;
+    border-bottom: solid 4px #3465EC;
 }
 
 .custom-shape-divider-bottom-1671504450 .shape-fill {
@@ -446,7 +466,7 @@ footer {
     display: flex;
     background-color: #3465EC;
     width: 100%;
-    border-top: 2px solid #3465EC;
+    border-top: 4px solid #3465EC;
     padding-bottom: 20px;
 }
 
@@ -458,5 +478,6 @@ footer {
     color: white;
     margin-top: auto;
     margin: auto;
+    font-family: 'Rambla', sans-serif;
 }
 
