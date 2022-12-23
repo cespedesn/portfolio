@@ -462,6 +462,22 @@ footer {
     text-decoration: none;
 }
 
+.medium-div {
+    display: inline-block;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: auto;
+}
+
+.medium-img:hover {
+    transform: scale(1.5);
+    transition: .4s;
+}
+
+.medium-link:hover {
+    text-decoration: none;
+}
+
 .copyright-div {
     display: flex;
     background-color: #3465EC;
