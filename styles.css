@@ -284,7 +284,7 @@ a.active, a.about:hover, a.skills:hover, a.projects:hover, a.contact:hover {
     transition: all 0.5s ease-in-out 0s;
     background: rgb(190, 222, 252);
     opacity: .6;
-    border-radius: 40%;
+    border-radius: 60%;
 }
 
 /*Projects*/
